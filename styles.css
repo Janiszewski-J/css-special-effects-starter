@@ -275,9 +275,9 @@ img{
     box-shadow: -6px 6px 10px 10px var(--dk-gray);
 }
 
-/* TO DO: Add a box shadow to this element with a three pixel offset in the x and y direction, no spread or blur, that uses the tan CSS variable color */
+/* Add a box shadow to this element with a three pixel offset in the x and y direction, no spread or blur, that uses the tan CSS variable color */
 .shadow2{
-    
+    box-shadow: 3px 3px 0 var(--tan);
 }
 
 /* This is included as an example and has been completed for you */
@@ -286,10 +286,10 @@ img{
     box-shadow: 6px 6px var(--dk-blue), -6px -6px var(--med-gray);
 }
 
-/* TO DO: Add a box shadow here that uses zero as the x-offset, y-offset, and blur, has a 6 pixel spread and uses the dark blue variable color, then add a second box shadow to the list that uses the same values for its first three settings, has a twelve pixel spread, and uses the medium gray CSS color variable */
+/* Add a box shadow here that uses zero as the x-offset, y-offset, and blur, has a 6 pixel spread and uses the dark blue variable color, then add a second box shadow to the list that uses the same values for its first three settings, has a twelve pixel spread, and uses the medium gray CSS color variable */
 .shadow4{
     border-radius: 50%;
-    
+    box-shadow: 0 0 0 6px var(--dk-blue), 0 0 0 12px var(--med-gray);
 }
 
 /* Border Radius Section Styles */
