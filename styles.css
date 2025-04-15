@@ -417,29 +417,29 @@ figcaption{
     font-size: 1.5rem;
 }
 
-/* TO DO: Add a filter that sets the opacity of this image to 50 percent */
+/* Add a filter that sets the opacity of this image to 50 percent */
 .filter1{
-    
+    filter: opacity(50%);
 }
 
-/* TO DO: Add a filter that adds sepia tone to this image using 80% as the amount to add */
+/* Add a filter that adds sepia tone to this image using 80% as the amount to add */
 .filter2{
-    
+    filter: sepia(80%);
 }
 
-/* TO DO: Add a filter that blurs this image by five pixels */
+/* Add a filter that blurs this image by five pixels */
 .filter3{
-    
+    filter: blur(5px);
 }
 
-/* TO DO: Add a filter here to increase saturation by 200% */
+/* Add a filter here to increase saturation by 200% */
 .filter4{
-    
+    filter: saturate(200%);
 }
 
-/* TO DO: Add a filter here to add a drop shadow to this element with a negative three pixel x offset, a 3 pixel y offset, five pixels of blur, and uses the medium gray CSS variable */
+/* Add a filter here to add a drop shadow to this element with a negative three pixel x offset, a 3 pixel y offset, five pixels of blur, and uses the medium gray CSS variable */
 .filter5{
-    
+    filter: drop-shadow(-3px 3px 5px var(--med-gray));
     max-height: 400px;
 }
 
