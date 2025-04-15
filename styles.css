@@ -293,24 +293,24 @@ img{
 }
 
 /* Border Radius Section Styles */
-/* TO DO: Add a ten pixel border radius to all sides of this element */
+/* Add a ten pixel border radius to all sides of this element */
 .corner1{
-    
+    border-radius: 10px;
 }
 
-/* TO DO: Add a ten pixel border radius to the top left and bottom right corners, and a twenty pixel border radius to the top right and bottom left corners of this element */
+/* Add a ten pixel border radius to the top left and bottom right corners, and a twenty pixel border radius to the top right and bottom left corners of this element */
 .corner2{
-    
+    border-radius: 10px 20px;
 }
 
-/* TO DO: Add a ten pixel border radius to the top left corner, a twenty pixel border radius to the top right and bottom left corners, and a fifteen pixel border radius to the bottom right corner */
+/* Add a ten pixel border radius to the top left corner, a twenty pixel border radius to the top right and bottom left corners, and a fifteen pixel border radius to the bottom right corner */
 .corner3{
-    
+    border-radius: 10px 20px 15px;
 }
 
-/* TO DO: Add the following border radius settings to each of the four corners of this element, starting with the upper-left hand corner and moving clockwise: ten pixels, five pixels, fifteen pixels, and twenty pixels */
+/* Add the following border radius settings to each of the four corners of this element, starting with the upper-left hand corner and moving clockwise: ten pixels, five pixels, fifteen pixels, and twenty pixels */
 .corner4{
-    
+    border-radius: 10px 5px 15px 20px;
 }
 
 /* Border Image Section Styles */
