@@ -259,14 +259,14 @@ img{
     text-shadow: -1px 1px var(--lt-blue), -4px 4px 6px var(--greige);
 }
 
-/* TO DO: Add a text shadow here that has a six pixel offset for both x and y, includes a six pixel blur and uses the tan CSS variable color */
+/* Add a text shadow here that has a six pixel offset for both x and y, includes a six pixel blur and uses the tan CSS variable color */
 .text-shadow-3{
-    
+    text-shadow: 6px 6px 6px var(--tan);
 }
 
-/* TO DO: Add a text shadow here that has a one pixel offset in the x and y direction, no spread or blur, and uses the light blue variable color */
+/* Add a text shadow here that has a one pixel offset in the x and y direction, no spread or blur, and uses the light blue variable color */
 .text-shadow-4{
-    
+    text-shadow: 1px 1px 0 var(--lt-blue);
 }
 
 /* Box Shadow Section Styles */
